@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../server.js'; // Notez l'extension `.js`
+import app from '../server.js';
 
 describe('Users API', () => {
   it('should return an empty array initially', async () => {
