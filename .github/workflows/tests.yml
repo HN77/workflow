@@ -3,7 +3,7 @@ name: CI Pipeline for Express API
 on:
   push:
     branches:
-      - main # Déclenche uniquement sur la branche "main"
+      - master # Déclenche uniquement sur la branche "main"
 
 jobs:
   build-and-test:
